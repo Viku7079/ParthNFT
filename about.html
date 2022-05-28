@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>About us</title>
+</head>
+<body>
+    
+    <!-- ***** Header Start ***** -->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.PNG" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Who we are</a></li>
+                <li><a href="web3.html">Web3 Blockchain</a></li>
+                <li><a href="defi.html">DeFi</a></li>
+                <li><a href="ieo.html">IEO/ICO</a></li>
+                <li><a href="sto.html">STO</a></li>
+                <li><a href="connect.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Parth is a full-service marketing and PR agency <br> delivering full solutions for successful <br> NFTs, Crypto, DeFi, STO, ICO, <br> Exchange Listing, and IEO.</h1>
+            <p>We work with utility and security tokens (STO and IEO/ICO), crypto exchanges, DeFi, blockchain, and fintech projects. 
+                A step-by-step guide to how to make and sell an NFT and earn good money for your Art, Artwork, Collectibles, Fashion items (i.e., clothes, shoes, bags, etc.), GIFs In-game items (i.e., gear, clothes, pets, skins, etc.), Memes, Music, Stills, Tweets, Videos, Virtual avatars, Written work 
+                Would you like to launch an NFT project? <br> <br> Let us help you devise the right strategy and plan for success. We can help you to deliver real value to your audience and make it successful.
+                Our Team - Our team is well-positioned to bring game-changing projects to market, 
+                with decades of cumulative Web3 experience.
+            </p>
+             <a href="connect.html" class="hero-btn">Get in Touch</a>
+        </div>
+    </section>
+    <!-- ***** Header End ***** -->
+
+
+    <div class="container">
+        <h1>Our Services</h1>
+        <div class="row">
+            <div class="services1">
+                <img src="images/1.png" alt="">
+                <p>NFT Creation</p>
+            </div>
+            <div class="services2">
+                <img src="images/2.png" alt="">
+                <p>To create the wallet, step by step LIVE guidance</p>
+            </div>
+            <div class="services3">
+                <img src="images/4.png" alt="">
+                <p>Listing on NFT Marketplaces</p>
+            </div>
+            <div class="services4">
+                <img src="images/3.png" alt="">
+                <p>PR & Marketing – SMO, Community build-up, Strategy to make it a success.</p>
+            </div>
+            <div class="services5">
+                <img src="images/5.png" alt="">
+                <p>Auction and Sell</p>
+            </div>
+            <div class="services6">
+                <img src="images/6.png" alt="">
+                <p>Taxation help</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- JavaScript for Toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }  
+    </script>
+
+</body>
+</html>

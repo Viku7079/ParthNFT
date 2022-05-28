@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ieo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>IEO/ICO</title>
+</head>
+<body>
+    <!-- ***** Header Start ***** -->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.PNG" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Who we are</a></li>
+                    <li><a href="web3.html">Web3 Blockchain</a></li>
+                    <li><a href="defi.html">DeFi</a></li>
+                    <li><a href="ieo.html">IEO/ICO</a></li>
+                    <li><a href="sto.html">STO</a></li>
+                    <li><a href="connect.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Coming soon...</h1>
+        </div>
+        
+    </section>
+    <!-- ***** Header End ***** -->
+
+    <!-- JavaScript for Toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }  
+    </script>
+
+</body>
+</html>

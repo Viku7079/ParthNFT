@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+
+    <title>Connect us</title>
+</head>
+<body>
+    <!-- ***** Header Start ***** -->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.PNG" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <img class="fa" src="images/close.png" alt="menu" onclick="hideMenu()">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="nft.html">NFT</a></li>
+                    <li><a href="defi.html">DeFi</a></li>
+                    <li><a href="ieo.html">IEO/ICO</a></li>
+                    <li><a href="sto.html">STO</a></li>
+                    <li><a href="connect.html">Connect Us</a></li>
+                </ul>
+            </div>
+            <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+            <img class="fa" src="images/menu.png" alt="menu" onclick="showMenu()">
+        </nav>
+        
+    </section>
+    <!-- ***** Header End ***** -->
+
+    <!-- JavaScript for Toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }  
+    </script>
+
+</body>
+</html>
